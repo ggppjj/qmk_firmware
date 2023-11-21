@@ -18,7 +18,7 @@ void turned(bool clockwise) {
     } else if (IS_LAYER_ON(5)) {
         tap_code(clockwise ? KC_MS_WH_DOWN : KC_MS_WH_UP);
     } else {
-        tap_code16(clockwise ? LGUI(KC_Y) : LGUI(KC_Z));
+        tap_code16(clockwise ? LGUI(KC_RGHT) : LGUI(KC_LEFT));
     }
 }
 
